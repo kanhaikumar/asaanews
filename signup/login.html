@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Sign Up Page </title>
+ </head>
+
+<body>
+    
+
+    <div class="container">
+        <div class="imgcontainer">
+            <img src="images.png" alt="Avatar" class="avatar">
+          </div>
+
+        <form action="validation.php" method="post">
+           <br>
+
+            <div class="form-item">
+                <input type="email" name="email" id="email" placeholder="Email" >
+            </div>
+
+            <div class="form-item">
+                <!-- add a password format display -->
+                <span class="pwd-format">
+                    8-15 AlphaNumeric Characters
+                </span>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+            </div>
+
+            <div class="accept-box">
+                <input type="checkbox" name="accept" id="accept">
+                 Remember me  
+            </div>
+
+            <div class="form-btns">
+                <button type="submit">Login</button></p>
+             <div class="psw">
+                Forgot password <a href="#">password?</a> 
+             </div>   
+                
+                <div class="options">
+                    Don't have account? <a href="signup.html">Sign up here</a>
+                </div>
+            </div>
+
+        </form>
+        <p>Copyright &copy; asaanews.com</p>
+    </div>
+</body>
+</html>
