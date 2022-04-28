@@ -1,10 +1,7 @@
 * {
 	margin: 0; padding: 0;
 }
-h1{
-	color:black;
-	 
-}
+
 	
 body {
 	text-align: center;
@@ -98,7 +95,7 @@ img {
 		}
 		#header .logo h1  {
 			text-align: center;
-			color:white;
+			color:black;
 			margin-left: 190px;
 			margin-top: auto;
 			font: 4em sans-serif;
